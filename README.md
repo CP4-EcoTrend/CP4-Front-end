@@ -70,15 +70,10 @@ Isso garante uma experiência consistente em desktop, tablet e mobile.
 
 ## 🎨 Tecnologias Utilizadas
 
-HTML5
-
-CSS3
-
-CSS Grid Layout
-
-Bootstrap
-
-Design Responsivo
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
+![Responsive](https://img.shields.io/badge/Design-Responsive-green)
 
 ## 🌎 Propósito
 
