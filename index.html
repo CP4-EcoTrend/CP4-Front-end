@@ -3,294 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ECOMERCE</title>
+    <title>EcoStore - Produtos Sustentáveis</title>
     <link rel="stylesheet" href="boostrap.css">
     <link rel="stylesheet" href="./src/css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark">
-<div class="container">
-
-<a class="navbar-brand" href="#">EcoStore</a>
-
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="menu">
-
-<ul class="navbar-nav ms-auto">
-
-<li class="nav-item">
-<a class="nav-link" href="index.html">Home</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="/src/pages/categoria.html">Produtos</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="/src/pages/contato.html">Contato</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="#">🛒 Carrinho</a>
-</li>
-
-</ul>
-
-</div>
-</div>
-</nav>
-
-
-<!-- CARROSSEL -->
-
-<div id="banner" class="carrossel slide banner" data-bs-ride="carousel">
-
-<div class="carrossel-inner">
-
-<div class="carrossel-item active">
-<img src="" class="d-block w-100">
-</div>
-
-<div class="carrossel-item">
-<img src="" class="d-block w-100">
-</div>
-
-<div class="carrossel-item">
-<img src="" class="d-block w-100">
-</div>
-
-</div>
-
-<button class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
-<span class="carousel-control-prev-icon"></span>
-</button>
-
-<button class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
-<span class="carousel-control-next-icon"></span>
-</button>
-
-</div>
-
-
-<!-- CATEGORIAS -->
-
-<section class="container mt-5">
-
-<h2 class="text-center mb-4">Categorias</h2>
-
-<div class="row text-center">
-
-<div class="col-md-3 categoria">
-<img src="" class="img-fluid rounded">
-<h5 class="mt-2">Roupas Sustentáveis</h5>
-</div>
-
-<div class="col-md-3 categoria">
-<img src="" class="img-fluid rounded">
-<h5 class="mt-2">Beleza Natural</h5>
-</div>
-
-<div class="col-md-3 categoria">
-<img src="" class="img-fluid rounded">
-<h5 class="mt-2">Casa Sustentável</h5>
-</div>
-
-<div class="col-md-3 categoria">
-<img src="" class="img-fluid rounded">
-<h5 class="mt-2">Tecnologia Verde</h5>
-</div>
-
-</div>
-
-</section>
-
-
-<!-- PRODUTOS -->
-
-<section class="container mt-5">
-
-<h2 class="text-center mb-4">Produtos em Destaque</h2>
-
-<div class="row">
-
-
-<div class="col-md-3">
-
-<div class="card">
-
-<img src="" class="card-img-top">
-
-<div class="card-body text-center">
-
-<h5>Camiseta Orgânica</h5>
-<p class="text-success">R$ 89,90</p>
-
-<button class="btn btn-success">
-Adicionar ao Carrinho
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="col-md-3">
-
-<div class="card">
-
-<img src="" class="card-img-top">
-
-<div class="card-body text-center">
-
-<h5>Sabonete Natural</h5>
-<p class="text-success">R$ 19,90</p>
-
-<button class="btn btn-success">
-Adicionar ao Carrinho
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="col-md-3">
-
-<div class="card">
-
-<img src="" class="card-img-top">
-
-<div class="card-body text-center">
-
-<h5>Garrafa Reutilizável</h5>
-<p class="text-success">R$ 39,90</p>
-
-<button class="btn btn-success">
-Adicionar ao Carrinho
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="col-md-3">
-
-<div class="card">
-
-<img src="" class="card-img-top">
-
-<div class="card-body text-center">
-
-<h5>Carregador Solar</h5>
-<p class="text-success">R$ 129,90</p>
-
-<button class="btn btn-success">
-Adicionar ao Carrinho
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- BENEFÍCIOS -->
-
-<section class="beneficios mt-5">
-
-<div class="container">
-
-<div class="row text-center">
-
-<div class="col-md-3">
-<h4>🌎 Sustentável</h4>
-<p>Produtos ecológicos</p>
-</div>
-
-<div class="col-md-3">
-<h4>🚚 Entrega Rápida</h4>
-<p>Para todo o Brasil</p>
-</div>
-
-<div class="col-md-3">
-<h4>🔄 Reciclável</h4>
-<p>Embalagens sustentáveis</p>
-</div>
-
-<div class="col-md-3">
-<h4>💳 Pagamento Seguro</h4>
-<p>Ambiente protegido</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- NEWSLETTER -->
-
-<section class="container mt-5 text-center">
-
-<h3>Receba Novidades Sustentáveis</h3>
-
-<p>Cadastre seu email e receba promoções</p>
-
-<div class="row justify-content-center">
-
-<div class="col-md-6">
-
-<input type="email" class="form-control mb-2" placeholder="Digite seu email">
-
-<button class="btn btn-success w-100">
-Inscrever
-</button>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- FOOTER -->
-
-<footer>
-
-<div class="container text-center">
-
-<p>© 2026 EcoStore</p>
-
-<p>
-Instagram | Facebook | Twitter
-</p>
-
-<p>
-Política de Privacidade | Termos
-</p>
-
-</div>
-
-</footer>
-   
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="bi bi-leaf me-2"></i>EcoStore
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#categorias">Categorias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" href="#">
+                            <i class="bi bi-cart3"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="banner" class="carousel slide banner" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200" class="d-block w-100" alt="Natureza" style="height: 500px; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4 fw-bold">Viva de Forma Sustentável</h2>
+                    <p class="lead">Produtos ecológicos para um mundo melhor</p>
+                    <a href="#produtos" class="btn btn-success btn-lg">Comprar Agora</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1200" class="d-block w-100" alt="Verde" style="height: 500px; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4 fw-bold">Cuide do Planeta</h2>
+                    <p class="lead">Escolha produtos sustentáveis</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=1200" class="d-block w-100" alt="Folhas" style="height: 500px; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4 fw-bold">Moda Consciente</h2>
+                    <p class="lead">Estilo que respeita o meio ambiente</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section id="categorias" class="container mt-5">
+        <h2 class="text-center mb-4">Categorias</h2>
+        <div class="row text-center g-4">
+            <div class="col-6 col-md-3">
+                <div class="card border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400" class="card-img-top rounded" alt="Roupas" style="height: 150px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Roupas Sustentáveis</h5>
+                        <a href="#" class="text-success text-decoration-none">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400" class="card-img-top rounded" alt="Beleza" style="height: 150px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Beleza Natural</h5>
+                        <a href="#" class="text-success text-decoration-none">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400" class="card-img-top rounded" alt="Casa" style="height: 150px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa Sustentável</h5>
+                        <a href="#" class="text-success text-decoration-none">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card border-0 h-100">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400" class="card-img-top rounded" alt="Tecnologia" style="height: 150px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Tecnologia Verde</h5>
+                        <a href="#" class="text-success text-decoration-none">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="container mt-5">
+        <h2 class="text-center mb-4">Produtos em Destaque</h2>
+        <div class="row g-4">
+            <div class="col-6 col-md-3">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400" class="card-img-top" alt="Camiseta" style="height: 200px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h6>Camiseta Orgânica</h6>
+                        <p class="text-success fw-bold">R$ 89,90</p>
+                        <button class="btn btn-outline-success btn-sm w-100">
+                            <i class="bi bi-cart-plus"></i> Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1600857062241-98e5dba7f214?w=400" class="card-img-top" alt="Sabonete" style="height: 200px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h6>Sabonete Natural</h6>
+                        <p class="text-success fw-bold">R$ 19,90</p>
+                        <button class="btn btn-outline-success btn-sm w-100">
+                            <i class="bi bi-cart-plus"></i> Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400" class="card-img-top" alt="Garrafa" style="height: 200px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h6>Garrafa Reutilizável</h6>
+                        <p class="text-success fw-bold">R$ 39,90</p>
+                        <button class="btn btn-outline-success btn-sm w-100">
+                            <i class="bi bi-cart-plus"></i> Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1548611635-b6e7827d7d4a?w=400" class="card-img-top" alt="Carregador Solar" style="height: 200px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h6>Carregador Solar</h6>
+                        <p class="text-success fw-bold">R$ 129,90</p>
+                        <button class="btn btn-outline-success btn-sm w-100">
+                            <i class="bi bi-cart-plus"></i> Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="beneficios mt-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-6 col-md-3">
+                    <i class="bi bi-globe fs-1 text-success"></i>
+                    <h5 class="mt-3">Sustentável</h5>
+                    <p class="small">Produtos ecológicos</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <i class="bi bi-truck fs-1 text-success"></i>
+                    <h5 class="mt-3">Entrega Rápida</h5>
+                    <p class="small">Para todo o Brasil</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <i class="bi bi-recycle fs-1 text-success"></i>
+                    <h5 class="mt-3">Reciclável</h5>
+                    <p class="small">Embalagens sustentáveis</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <i class="bi bi-shield-check fs-1 text-success"></i>
+                    <h5 class="mt-3">Pagamento Seguro</h5>
+                    <p class="small">Ambiente protegido</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container mt-5 py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <h3 class="mb-3">Receba Novidades Sustentáveis</h3>
+                <p class="text-muted mb-4">Cadastre seu email e receba promoções e dicas sustentáveis</p>
+                <form class="d-flex gap-2 justify-content-center">
+                    <input type="email" class="form-control" placeholder="Digite seu email" style="max-width: 300px;">
+                    <button type="submit" class="btn btn-success">
+                        <i class="bi bi-envelope"></i> Inscrever
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="text-white me-3 text-decoration-none"><i class="bi bi-instagram fs-5"></i></a>
+                <a href="#" class="text-white me-3 text-decoration-none"><i class="bi bi-facebook fs-5"></i></a>
+                <a href="#" class="text-white text-decoration-none"><i class="bi bi-twitter-x fs-5"></i></a>
+            </div>
+            <p class="mb-1">&copy; 2026 EcoStore - Todos os direitos reservados</p>
+            <p class="small">
+                <a href="#" class="text-white-50 text-decoration-none">Política de Privacidade</a> | 
+                <a href="#" class="text-white-50 text-decoration-none">Termos de Uso</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html> 
+</html>
