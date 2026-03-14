@@ -23,7 +23,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="src/pages/produtos.html">Produtos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#categorias">Categorias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="src/pages/dicas.html">Dicas Úteis</a></li>
                     <li class="nav-item"><a class="nav-link" href="src/pages/contato.html">Contato</a></li>
                 </ul>
             </div>
@@ -63,42 +63,61 @@
         </button>
     </div>
 
-    <section id="categorias" class="container mt-5">
-        <h2 class="text-center mb-4">Categorias</h2>
+    <section id="dicas" class="container mt-5">
+        <h2 class="text-center mb-4">Dicas Úteis</h2>
+        <p class="text-center text-muted mb-4">Aprenda a viver de forma mais sustentável no dia a dia</p>
         <div class="row text-center g-4">
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-4">
                 <div class="card border-0 h-100">
-                    <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400" class="card-img-top rounded" alt="Roupas" style="height: 150px; object-fit: cover;">
                     <div class="card-body">
-                        <h5 class="card-title">Roupas Sustentáveis</h5>
-                        <a href="#" class="text-success text-decoration-none">Ver mais</a>
+                        <i class="bi bi-lightbulb fs-1 text-success"></i>
+                        <h5 class="card-title mt-3">Economize Energia</h5>
+                        <p class="card-text text-muted">Desconecte eletrônicos quando não estiverem em uso e aproveite a luz natural sempre que possível.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-4">
                 <div class="card border-0 h-100">
-                    <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400" class="card-img-top rounded" alt="Beleza" style="height: 150px; object-fit: cover;">
                     <div class="card-body">
-                        <h5 class="card-title">Beleza Natural</h5>
-                        <a href="#" class="text-success text-decoration-none">Ver mais</a>
+                        <i class="bi bi-droplet fs-1 text-success"></i>
+                        <h5 class="card-title mt-3">Economize Água</h5>
+                        <p class="card-text text-muted">Feche a torneira ao escovar os dentes e tome banhos mais curtos para preservar recursos hídricos.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-4">
                 <div class="card border-0 h-100">
-                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400" class="card-img-top rounded" alt="Casa" style="height: 150px; object-fit: cover;">
                     <div class="card-body">
-                        <h5 class="card-title">Casa Sustentável</h5>
-                        <a href="#" class="text-success text-decoration-none">Ver mais</a>
+                        <i class="bi bi-bag fs-1 text-success"></i>
+                        <h5 class="card-title mt-3">Use Sacolas Reutilizáveis</h5>
+                        <p class="card-text text-muted">Leve suas próprias sacolas ao fazer compras e evite plásticos de uso único.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-4">
                 <div class="card border-0 h-100">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400" class="card-img-top rounded" alt="Tecnologia" style="height: 150px; object-fit: cover;">
                     <div class="card-body">
-                        <h5 class="card-title">Tecnologia Verde</h5>
-                        <a href="#" class="text-success text-decoration-none">Ver mais</a>
+                        <i class="bi bi-recycle fs-1 text-success"></i>
+                        <h5 class="card-title mt-3">Recicle Corretamente</h5>
+                        <p class="card-text text-muted">Separe recicláveis, orgânicos e rejeitos. Cada material tem seu destino correto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card border-0 h-100">
+                    <div class="card-body">
+                        <i class="bi bi-tree fs-1 text-success"></i>
+                        <h5 class="card-title mt-3">Plante Árvores</h5>
+                        <p class="card-text text-muted">Árvores purificam o ar e combatem o aquecimento global. incentive o verde onde morar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card border-0 h-100">
+                    <div class="card-body">
+                        <i class="bi bi-cart fs-1 text-success"></i>
+                        <h5 class="card-title mt-3">Consuma Consciente</h5>
+                        <p class="card-text text-muted">Prefira produtos locais e sustentáveis. Avalie realmente antes de comprar algo novo.</p>
                     </div>
                 </div>
             </div>
@@ -114,9 +133,9 @@
                     <div class="card-body text-center">
                         <h6>Camiseta Orgânica</h6>
                         <p class="text-success fw-bold">R$ 89,90</p>
-                        <button class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-cart-plus"></i> Adicionar
-                        </button>
+                        <a href="src/pages/produto-camiseta.html" class="btn btn-outline-success btn-sm w-100">
+                            <i class="bi bi-eye"></i> Ver Detalhes
+                        </a>
                     </div>
                 </div>
             </div>
@@ -126,9 +145,9 @@
                     <div class="card-body text-center">
                         <h6>Sabonete Natural</h6>
                         <p class="text-success fw-bold">R$ 19,90</p>
-                        <button class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-cart-plus"></i> Adicionar
-                        </button>
+                        <a href="src/pages/produto-sabonete.html" class="btn btn-outline-success btn-sm w-100">
+                            <i class="bi bi-eye"></i> Ver Detalhes
+                        </a>
                     </div>
                 </div>
             </div>
@@ -138,9 +157,9 @@
                     <div class="card-body text-center">
                         <h6>Garrafa Reutilizável</h6>
                         <p class="text-success fw-bold">R$ 39,90</p>
-                        <button class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-cart-plus"></i> Adicionar
-                        </button>
+                        <a href="src/pages/produto-garrafa.html" class="btn btn-outline-success btn-sm w-100">
+                            <i class="bi bi-eye"></i> Ver Detalhes
+                        </a>
                     </div>
                 </div>
             </div>
@@ -150,9 +169,9 @@
                     <div class="card-body text-center">
                         <h6>Carregador Solar</h6>
                         <p class="text-success fw-bold">R$ 129,90</p>
-                        <button class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-cart-plus"></i> Adicionar
-                        </button>
+                        <a href="src/pages/produto-carregador.html" class="btn btn-outline-success btn-sm w-100">
+                            <i class="bi bi-eye"></i> Ver Detalhes
+                        </a>
                     </div>
                 </div>
             </div>
