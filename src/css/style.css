@@ -100,8 +100,20 @@
         grid-column: 1;
     }
     
-    .mobile-menu-btn {
+    .header-actions {
         grid-column: 2;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .cart-icon-mobile {
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    
+    .mobile-menu-btn {
         display: block !important;
         background: transparent;
         border: none;
