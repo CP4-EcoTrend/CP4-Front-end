@@ -167,6 +167,14 @@
     }
 }
 
+@media (max-width: 575px) {
+    form.d-flex {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
 .banner img{
 height:500px;
 object-fit:cover;
