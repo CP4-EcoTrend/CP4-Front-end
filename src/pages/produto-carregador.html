@@ -55,7 +55,7 @@
                     <li>Design dobrável</li>
                 </ul>
 
-                <button class="btn btn-success btn-lg">
+                <button id="btnComprar" class="btn btn-success btn-lg">
                     <i class="bi bi-cart-plus"></i> Adicionar ao Carrinho
                 </button>
             </div>
@@ -72,7 +72,27 @@
             <p class="mb-1">&copy; 2026 EcoStore - Todos os direitos reservados</p>
         </div>
     </footer>
+    <div id="animacaoCompra" class="animacao-compra">
+        <div class="check">
+            <i class="bi bi-check-circle-fill"></i>
+            <p>Produto adicionado ao carrinho!</p>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+const botao = document.getElementById("btnComprar");
+const animacao = document.getElementById("animacaoCompra");
+
+botao.addEventListener("click", () => {
+
+animacao.classList.add("ativo");
+
+setTimeout(() => {
+animacao.classList.remove("ativo");
+}, 2000);
+
+});
+    </script>
 </body>
 </html>
