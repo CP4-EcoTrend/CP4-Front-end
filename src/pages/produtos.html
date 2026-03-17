@@ -31,101 +31,171 @@
         </div>
     </header>
 
-    <section class="container mt-4 mt-md-5 px-2 px-md-0">
-        <h2 class="text-center mb-3 mb-md-4 fs-4 fs-md-2">Nossos Produtos por Categoria</h2>
+    <section class="container mt-4 mt-md-5">
+        <h2 class="text-center mb-4 fs-4 fs-md-2">Nossos Produtos</h2>
 
-        <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 fs-6 fs-md-5"><i class="bi bi-shirt text-success me-1 me-md-2"></i>Vestuário Sustentável</h4>
-        <div class="row g-3 g-md-4 mb-3 mb-md-4">
-            <div class="col-6 col-md-4">
-                <div class="card h-100">
-                    <img src="../imgs/camisetaOrganica.png" class="card-img-top" alt="Camiseta" style="height: 150px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h6>Camiseta Orgânica</h6>
-                        <p class="text-success fw-bold mb-2">R$ 89,90</p>
-                        <a href="produto-camiseta.html" class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-info-circle"></i> Ver Detalhes
-                        </a>
+        <div class="row">
+            <div class="col-lg-3 mb-4">
+                <div class="filter-section">
+                    <h5 class="mb-3"><i class="bi bi-funnel me-2"></i>Filtros</h5>
+                    
+                    <div class="filter-group mb-4">
+                        <h6 class="filter-title">Tipo de Produto</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="roupas">
+                            <label class="form-check-label" for="roupas">Vestuário</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="beleza">
+                            <label class="form-check-label" for="beleza">Higiene Pessoal</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="casa">
+                            <label class="form-check-label" for="casa">Acessórios</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tech">
+                            <label class="form-check-label" for="tech">Eletrônicos</label>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
-        <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 fs-6 fs-md-5"><i class="bi bi-droplet text-primary me-1 me-md-2"></i>Higiene Pessoal</h4>
-        <div class="row g-3 g-md-4 mb-3 mb-md-4">
-            <div class="col-6 col-md-4">
-                <div class="card h-100">
-                    <img src="../imgs/saboneteNatural.png" class="card-img-top" alt="Sabonete" style="height: 150px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h6>Sabonete Natural</h6>
-                        <p class="text-success fw-bold mb-2">R$ 19,90</p>
-                        <a href="produto-sabonete.html" class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-info-circle"></i> Ver Detalhes
-                        </a>
+                    <div class="filter-group mb-4">
+                        <h6 class="filter-title">Faixa de Preço</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="preco" id="ate20">
+                            <label class="form-check-label" for="ate20">Até R$ 20</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="preco" id="20a50">
+                            <label class="form-check-label" for="20a50">R$ 20 - R$ 50</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="preco" id="50a100">
+                            <label class="form-check-label" for="50a100">R$ 50 - R$ 100</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="preco" id="acima100">
+                            <label class="form-check-label" for="acima100">Acima de R$ 100</label>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-4">
-                <div class="card h-100">
-                    <img src="../imgs/escovaBambu.png" class="card-img-top" alt="Escova" style="height: 150px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h6>Escova de Bambu</h6>
-                        <p class="text-success fw-bold mb-2">R$ 12,90</p>
-                        <a href="produto-escova.html" class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-info-circle"></i> Ver Detalhes
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 fs-6 fs-md-5"><i class="bi bi-bag text-warning me-1 me-md-2"></i>Acessórios Sustentáveis</h4>
-        <div class="row g-3 g-md-4 mb-3 mb-md-4">
-            <div class="col-6 col-md-4">
-                <div class="card h-100">
-                    <img src="../imgs/garrafaReutilizavel.png" class="card-img-top" alt="Garrafa" style="height: 150px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h6>Garrafa Reutilizável</h6>
-                        <p class="text-success fw-bold mb-2">R$ 39,90</p>
-                        <a href="produto-garrafa.html" class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-info-circle"></i> Ver Detalhes
-                        </a>
+                    <div class="filter-group">
+                        <h6 class="filter-title">Marca</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="eco">
+                            <label class="form-check-label" for="eco">EcoBrand</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="green">
+                            <label class="form-check-label" for="green">GreenLife</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="nature">
+                            <label class="form-check-label" for="nature">NatureTech</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sustenta">
+                            <label class="form-check-label" for="sustenta">Sustenta</label>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4">
-                <div class="card h-100">
-                    <img src="../imgs/bolsaReciclada.png" class="card-img-top" alt="Bolsa" style="height: 150px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h6>Bolsa Reciclada</h6>
-                        <p class="text-success fw-bold mb-2">R$ 79,90</p>
-                        <a href="produto-bolsa.html" class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-info-circle"></i> Ver Detalhes
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 fs-6 fs-md-5"><i class="bi bi-battery-charging text-info me-1 me-md-2"></i>Eletrônicos Verdes</h4>
-        <div class="row g-3 g-md-4 mb-4">
-            <div class="col-6 col-md-4">
-                <div class="card h-100">
-                    <img src="../imgs/carregadorSolar.png" class="card-img-top" alt="Carregador Solar" style="height: 150px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h6>Carregador Solar</h6>
-                        <p class="text-success fw-bold mb-2">R$ 129,90</p>
-                        <a href="produto-carregador.html" class="btn btn-outline-success btn-sm w-100">
-                            <i class="bi bi-info-circle"></i> Ver Detalhes
-                        </a>
+            <div class="col-lg-9">
+                <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 fs-6 fs-md-5"><i class="bi bi-shirt text-success me-1 me-md-2"></i>Vestuário Sustentável</h4>
+                <div class="row g-3 g-md-4 mb-3 mb-md-4">
+                    <div class="col-6 col-md-4">
+                        <div class="card h-100">
+                            <img src="../imgs/camisetaOrganica.png" class="card-img-top" alt="Camiseta" style="height: 150px; object-fit: cover;">
+                            <div class="card-body text-center">
+                                <h6>Camiseta Orgânica</h6>
+                                <p class="text-success fw-bold mb-2">R$ 89,90</p>
+                                <a href="produto-camiseta.html" class="btn btn-outline-success btn-sm w-100">
+                                    <i class="bi bi-info-circle"></i> Ver Detalhes
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 fs-6 fs-md-5"><i class="bi bi-droplet text-primary me-1 me-md-2"></i>Higiene Pessoal</h4>
+                <div class="row g-3 g-md-4 mb-3 mb-md-4">
+                    <div class="col-6 col-md-4">
+                        <div class="card h-100">
+                            <img src="../imgs/saboneteNatural.png" class="card-img-top" alt="Sabonete" style="height: 150px; object-fit: cover;">
+                            <div class="card-body text-center">
+                                <h6>Sabonete Natural</h6>
+                                <p class="text-success fw-bold mb-2">R$ 19,90</p>
+                                <a href="produto-sabonete.html" class="btn btn-outline-success btn-sm w-100">
+                                    <i class="bi bi-info-circle"></i> Ver Detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="card h-100">
+                            <img src="../imgs/escovaBambu.png" class="card-img-top" alt="Escova" style="height: 150px; object-fit: cover;">
+                            <div class="card-body text-center">
+                                <h6>Escova de Bambu</h6>
+                                <p class="text-success fw-bold mb-2">R$ 12,90</p>
+                                <a href="produto-escova.html" class="btn btn-outline-success btn-sm w-100">
+                                    <i class="bi bi-info-circle"></i> Ver Detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 fs-6 fs-md-5"><i class="bi bi-bag text-warning me-1 me-md-2"></i>Acessórios Sustentáveis</h4>
+                <div class="row g-3 g-md-4 mb-3 mb-md-4">
+                    <div class="col-6 col-md-4">
+                        <div class="card h-100">
+                            <img src="../imgs/garrafaReutilizavel.png" class="card-img-top" alt="Garrafa" style="height: 150px; object-fit: cover;">
+                            <div class="card-body text-center">
+                                <h6>Garrafa Reutilizável</h6>
+                                <p class="text-success fw-bold mb-2">R$ 39,90</p>
+                                <a href="produto-garrafa.html" class="btn btn-outline-success btn-sm w-100">
+                                    <i class="bi bi-info-circle"></i> Ver Detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="card h-100">
+                            <img src="../imgs/bolsaReciclada.png" class="card-img-top" alt="Bolsa" style="height: 150px; object-fit: cover;">
+                            <div class="card-body text-center">
+                                <h6>Bolsa Reciclada</h6>
+                                <p class="text-success fw-bold mb-2">R$ 79,90</p>
+                                <a href="produto-bolsa.html" class="btn btn-outline-success btn-sm w-100">
+                                    <i class="bi bi-info-circle"></i> Ver Detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 fs-6 fs-md-5"><i class="bi bi-battery-charging text-info me-1 me-md-2"></i>Eletrônicos Verdes</h4>
+                <div class="row g-3 g-md-4 mb-4">
+                    <div class="col-6 col-md-4">
+                        <div class="card h-100">
+                            <img src="../imgs/carregadorSolar.png" class="card-img-top" alt="Carregador Solar" style="height: 150px; object-fit: cover;">
+                            <div class="card-body text-center">
+                                <h6>Carregador Solar</h6>
+                                <p class="text-success fw-bold mb-2">R$ 129,90</p>
+                                <a href="produto-carregador.html" class="btn btn-outline-success btn-sm w-100">
+                                    <i class="bi bi-info-circle"></i> Ver Detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-4 mt-md-5">
+                    <a href="../../index.html" class="btn btn-success">
+                        <i class="bi bi-arrow-left"></i> Voltar para Home
+                    </a>
+                </div>
             </div>
-        </div>
-        
-        <div class="text-center mt-4 mt-md-5">
-            <a href="../../index.html" class="btn btn-success">
-                <i class="bi bi-arrow-left"></i> Voltar para Home
-            </a>
         </div>
     </section>
 

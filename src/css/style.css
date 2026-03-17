@@ -210,3 +210,47 @@ flex:1;
   font-size: 22px;
   letter-spacing: 1px;
 }
+
+.filter-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+}
+
+.filter-section h5 {
+    color: #2d6a4f;
+    font-weight: 600;
+}
+
+.filter-group {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.filter-group:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.filter-title {
+    color: #495057;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-check-label {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.form-check-input:checked {
+    background-color: #2d6a4f;
+    border-color: #2d6a4f;
+}
+
+@media (max-width: 991px) {
+    .filter-section {
+        margin-bottom: 30px;
+    }
+}
